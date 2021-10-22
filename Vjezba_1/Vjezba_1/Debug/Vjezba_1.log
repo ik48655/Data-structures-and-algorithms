@@ -1,0 +1,4 @@
+﻿  Zadatak1.c
+C:\Users\User\Desktop\2 god 3 sem\strukture podataka i algoritmi\Vjezba_1\Vjezba_1\Zadatak1.c(10,12): warning C4047: 'return': 'int *' differs in levels of indirection from 'int'
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\User\Desktop\2 god 3 sem\strukture podataka i algoritmi\Vjezba_1\Debug\Vjezba_1.exe : fatal error LNK1120: 1 unresolved externals
