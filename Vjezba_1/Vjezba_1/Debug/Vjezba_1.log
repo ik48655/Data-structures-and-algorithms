@@ -1,4 +1,7 @@
-﻿  Zadatak1.c
-C:\Users\User\Desktop\2 god 3 sem\strukture podataka i algoritmi\Vjezba_1\Vjezba_1\Zadatak1.c(10,12): warning C4047: 'return': 'int *' differs in levels of indirection from 'int'
-MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
-C:\Users\User\Desktop\2 god 3 sem\strukture podataka i algoritmi\Vjezba_1\Debug\Vjezba_1.exe : fatal error LNK1120: 1 unresolved externals
+﻿  Zadatak4.c
+C:\Users\User\Desktop\2 god 3 sem\strukture podataka i algoritmi\SPA-VJEZBE\Vjezba_1\Vjezba_1\Zadatak4.c(29,46): warning C4047: '=': 'tocka **' differs in levels of indirection from 'tocka *'
+C:\Users\User\Desktop\2 god 3 sem\strukture podataka i algoritmi\SPA-VJEZBE\Vjezba_1\Vjezba_1\Zadatak4.c(37,11): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'tocka *'
+C:\Users\User\Desktop\2 god 3 sem\strukture podataka i algoritmi\SPA-VJEZBE\Vjezba_1\Vjezba_1\Zadatak4.c(56,10): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'float *'
+C:\Users\User\Desktop\2 god 3 sem\strukture podataka i algoritmi\SPA-VJEZBE\Vjezba_1\Vjezba_1\Zadatak4.c(56,10): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'float *'
+C:\Users\User\Desktop\2 god 3 sem\strukture podataka i algoritmi\SPA-VJEZBE\Vjezba_1\Vjezba_1\Zadatak4.c(63,10): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'tocka'
+  Vjezba_1.vcxproj -> C:\Users\User\Desktop\2 god 3 sem\strukture podataka i algoritmi\SPA-VJEZBE\Vjezba_1\Debug\Vjezba_1.exe
