@@ -33,11 +33,13 @@ tocka** pozitivni(poligon* p, int* pc)
 	{
 		if (p->niz[i].x > 0 && p->niz[i].y > 0)
 		{
+			/*
 			plus[j] = &(p->niz[i].x);
 			j++;
 			plus[j] = &(p->niz[i].y);
+			j++;*/
+			plus[j] = &(p->niz[i]);
 			j++;
-			//printf("%d\n", &(p->niz[i]));
 		}
 	}
 	*pc = j;
@@ -52,7 +54,7 @@ void main()
 	tocka** pt;
 	poligon* nnn = novi_poligon(nniz_x, nniz_y, n);
 	nnn->n = n;
-	printf("Koordinate poligona:\n");
+	printf("Koordinate poligona su:\n");
 	for (int i = 0; i < n; i++)
 	{
 		printf("%d, %d\n", &nnn->niz[i].x, &nnn->niz[i].y);
@@ -62,7 +64,7 @@ void main()
 	pt = pozitivni(nnn, &nn);
 	for (int i = 0; i < nn; i++)
 	{
-		printf("X: %d Y:%d\n", pt[i++],pt[i]);
+		printf("Vrh poligona kojem su obe koordinate pozitivne ima koordinate x: %f, y:%f\n", pt[i]->x,pt[i]->y);
 	}
 	free(pt);
 	free(nnn->niz);
