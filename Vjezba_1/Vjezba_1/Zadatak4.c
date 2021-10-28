@@ -27,18 +27,20 @@ tocka** pozitivni(poligon* p, int* pc)
 {
 	tocka** plus;
 	plus = (tocka*)malloc(p->n * sizeof(tocka*));
-	int broj = 0;
+	int j = 0;
 	int i;
 	for (i = 0; i < p->n; i++)
 	{
 		if (p->niz[i].x > 0 && p->niz[i].y > 0)
 		{
-			plus[broj] = &(p->niz[i]);
-			printf("%d\n", &(p->niz[i]));
-			broj++;
+			plus[j] = &(p->niz[i].x);
+			j++;
+			plus[j] = &(p->niz[i].y);
+			j++;
+			//printf("%d\n", &(p->niz[i]));
 		}
 	}
-	*pc = broj;
+	*pc = j;
 	return plus;
 }
 void main()
@@ -60,7 +62,7 @@ void main()
 	pt = pozitivni(nnn, &nn);
 	for (int i = 0; i < nn; i++)
 	{
-		printf("%d\n", pt[i]);
+		printf("X: %d Y:%d\n", pt[i++],pt[i]);
 	}
 	free(pt);
 	free(nnn->niz);
