@@ -65,7 +65,7 @@ void pravibin(objekt3d* binarni)
         perror("Error");
     }
     int buffer[20] = { 0 };
-    fwrite(buffer, sizeof(char), 80, fp);
+    fwrite(buffer, sizeof(int), 20, fp);
     fwrite(&(binarni->n), sizeof(int), 1, fp);
     int i;
     for (i = 0; i < binarni->n; i++)

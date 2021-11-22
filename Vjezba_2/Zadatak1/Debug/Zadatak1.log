@@ -1,7 +1,4 @@
 ﻿  stl.c
 C:\Users\User\Desktop\2 god 3 sem\strukture podataka i algoritmi\SPA-VJEZBE\Vjezba_2\Zadatak1\stl.c(18,18): warning C4047: 'return': 'objekt3d *' differs in levels of indirection from 'int'
 C:\Users\User\Desktop\2 god 3 sem\strukture podataka i algoritmi\SPA-VJEZBE\Vjezba_2\Zadatak1\stl.c(26,18): warning C4047: 'return': 'objekt3d *' differs in levels of indirection from 'int'
-  main.c
-C:\Users\User\Desktop\2 god 3 sem\strukture podataka i algoritmi\SPA-VJEZBE\Vjezba_2\Zadatak1\main.c(11,12): warning C4013: 'brise3d' undefined; assuming extern returning int
-  Generating Code...
   Zadatak1.vcxproj -> C:\Users\User\Desktop\2 god 3 sem\strukture podataka i algoritmi\SPA-VJEZBE\Vjezba_2\Debug\Vjezba 2.exe
